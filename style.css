@@ -1,0 +1,113 @@
+*{
+            padding: 0;
+            margin: 0;
+            font-family: 'NRT Reg';
+            text-decoration: none;
+        }
+        section{
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #2C3A47;
+            width: 350px;
+            padding-top: 30px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .profile .head{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile .head img{
+            width: 100px;
+            border-radius: 100%;
+            border: 2px solid #ED5565;
+            margin-bottom: 10px;
+        }
+        .profile .head .name{
+            font-size: 1.5rem;
+            color: #fff;
+        }
+        .profile .head .bio{
+            color: #ED5565;
+        }
+        .profile .head ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+        }
+        .profile .head .bio {
+            font-size: 0.9rem;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .profile .head ul li{
+            margin: 15px;
+            font-size: 1.3rem;
+            color: #fff;
+            transition: .4s;
+        }
+        .profile .head ul li:hover{
+            color: #ED5565;
+            cursor: pointer;
+        }
+        .profile .head button{
+            width: 170px;
+            height: 48px;
+            background: none;
+            border: 2px solid #ED5565;
+            border-radius: 8px;
+            color: #ED5565;
+            font-size: 1.1rem;
+            transition: .4s;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 4rem;
+        }
+        .profile .head button:hover{
+            background: #ED5565;
+            color: #fff;
+        }
+        .bg{
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            top: 0;
+            filter: brightness(25%);
+-webkit-filter: brightness(25%);
+-moz-filter: brightness(25%);
+        }
+        .profile #list{
+            width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            background: #fff;
+            padding: 20px 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .post{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .post li{
+            font-size: 1.3rem;
+        }
+        .post li p{
+            font-size: 0.8rem;
+            color: #ED5565;
+        }
